@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title description">
+  <title id="title">从 GitHub 项目到工程经验的学习流程</title>
+  <desc id="description">发现候选，按问题筛选，本地静态读源码，同类比较，关联自身问题，提出最小实验，再用实践反馈调整下一轮选择。</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2ff"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity=".045"/></filter>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <g font-family="Hiragino Sans GB, PingFang SC, Arial, sans-serif">
+    <rect x="1" y="1" width="1198" height="778" rx="28" fill="url(#bg)" stroke="#e2e8f0"/>
+    <text x="64" y="62" font-size="17" font-weight="700" fill="#6366f1" letter-spacing="2">01 / LEARNING WORKFLOW</text>
+    <text x="64" y="118" font-size="40" font-weight="700" fill="#0f172a">让 GitHub 项目变成工程经验</text>
+    <text x="64" y="158" font-size="23" fill="#64748b">不是扩大收藏夹，而是完成一次有证据的学习</text>
+    <rect x="836" y="51" width="300" height="44" rx="22" fill="#fff" stroke="#c7d2fe"/>
+    <text x="986" y="80" font-size="19" text-anchor="middle" fill="#4f46e5">10 候选 · 3 简报 · 1 深读</text>
+    <g fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M390 310 H426"/><path d="M766 310 H802"/>
+      <path d="M976 398 V446"/><path d="M802 548 H766"/><path d="M426 548 H390"/>
+      <path d="M224 642 V680"/>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="64" y="222" width="320" height="176" rx="18" fill="#fff" stroke="#e2e8f0"/>
+      <rect x="440" y="222" width="320" height="176" rx="18" fill="#fff" stroke="#e2e8f0"/>
+      <rect x="816" y="222" width="320" height="176" rx="18" fill="#fff" stroke="#c7d2fe"/>
+      <rect x="816" y="460" width="320" height="176" rx="18" fill="#fff" stroke="#e2e8f0"/>
+      <rect x="440" y="460" width="320" height="176" rx="18" fill="#fff" stroke="#e2e8f0"/>
+      <rect x="64" y="460" width="320" height="176" rx="18" fill="#ecfdf5" stroke="#a7f3d0"/>
+    </g>
+    <g font-size="18" font-weight="700" text-anchor="middle">
+      <rect x="88" y="244" width="40" height="30" rx="8" fill="#eef2ff"/><text x="108" y="266" fill="#4f46e5">01</text>
+      <rect x="464" y="244" width="40" height="30" rx="8" fill="#eef2ff"/><text x="484" y="266" fill="#4f46e5">02</text>
+      <rect x="840" y="244" width="40" height="30" rx="8" fill="#eef2ff"/><text x="860" y="266" fill="#4f46e5">03</text>
+      <rect x="840" y="482" width="40" height="30" rx="8" fill="#eef2ff"/><text x="860" y="504" fill="#4f46e5">04</text>
+      <rect x="464" y="482" width="40" height="30" rx="8" fill="#eef2ff"/><text x="484" y="504" fill="#4f46e5">05</text>
+      <rect x="88" y="482" width="40" height="30" rx="8" fill="#d1fae5"/><text x="108" y="504" fill="#047857">06</text>
+    </g>
+    <g font-size="29" font-weight="700" fill="#0f172a">
+      <text x="88" y="316">发现候选</text><text x="464" y="316">按问题筛选</text><text x="840" y="316">本地读源码</text>
+      <text x="840" y="554">同类比较</text><text x="464" y="554">关联自己</text><text x="88" y="554">最小实验</text>
+    </g>
+    <g font-size="20" fill="#64748b">
+      <text x="88" y="350">搜索、趋势与关注池</text><text x="88" y="377">记录来源，不迷信 Star</text>
+      <text x="464" y="350">最多 3 份简报</text><text x="464" y="377">只选 1 个深入阅读</text>
+      <text x="840" y="350">固定 commit 与调用链</text><text x="840" y="377">默认不安装、不执行</text>
+      <text x="840" y="588">先看是否处于同一层</text><text x="840" y="615">比较取舍，而非数功能</text>
+      <text x="464" y="588">对应一个正在解决的问题</text><text x="464" y="615">提炼可迁移的设计经验</text>
+      <text x="88" y="588">写清范围与验收标准</text><text x="88" y="615">由人决定是否执行</text>
+    </g>
+    <rect x="64" y="694" width="1072" height="46" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="600" y="724" text-anchor="middle" font-size="22" fill="#475569">实践反馈 → 人工调整画像与筛选条件 → 下一轮学习</text>
+    <path d="M64 717 H34 V310 H52" fill="none" stroke="#94a3b8" stroke-dasharray="5 5" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+</svg>

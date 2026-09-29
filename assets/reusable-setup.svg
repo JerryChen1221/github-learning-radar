@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="930" viewBox="0 0 1200 930" role="img" aria-labelledby="title description">
+  <title id="title">可复用的 GitHub 学习系统职责架构</title>
+  <desc id="description">定时任务、学习画像和历史记录为学习 Skill 提供触发与输入。Skill 复用发现、源码阅读、比较与报告方法，将结果保存在专用研究副本、报告和状态目录中。</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#f0fdfa"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity=".045"/></filter>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <g font-family="Hiragino Sans GB, PingFang SC, Arial, sans-serif">
+    <rect x="1" y="1" width="1198" height="928" rx="28" fill="url(#bg)" stroke="#e2e8f0"/>
+    <text x="64" y="62" font-size="17" font-weight="700" fill="#6366f1" letter-spacing="2">02 / REUSABLE SETUP</text>
+    <text x="64" y="118" font-size="40" font-weight="700" fill="#0f172a">可复用的不是一段 Prompt，而是分工</text>
+    <text x="64" y="158" font-size="23" fill="#64748b">触发、方法、个人上下文和持续记录，各负其责</text>
+    <text x="1136" y="63" text-anchor="end" font-size="18" fill="#64748b">本地文件方案示意</text>
+    <g filter="url(#shadow)" fill="#fff" stroke="#e2e8f0">
+      <rect x="64" y="214" width="320" height="154" rx="18"/>
+      <rect x="440" y="214" width="320" height="154" rx="18"/>
+      <rect x="816" y="214" width="320" height="154" rx="18"/>
+    </g>
+    <g font-size="29" font-weight="700" fill="#0f172a">
+      <text x="88" y="260">定时任务</text><text x="464" y="260">学习画像</text><text x="840" y="260">历史记录</text>
+    </g>
+    <g font-size="22" fill="#475569">
+      <text x="88" y="302">决定什么时候做</text><text x="464" y="302">决定为什么值得看</text><text x="840" y="302">减少重复与误判</text>
+    </g>
+    <g font-size="20" fill="#64748b">
+      <text x="88" y="337">例如每日 08:30</text><text x="464" y="337">问题、偏好、阅读预算</text><text x="840" y="337">Star 快照、已读版本</text>
+    </g>
+    <path d="M224 370 V398 H976 V370 M600 398 V424" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M600 370 V424" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="252" y="436" width="696" height="182" rx="22" fill="#eef2ff" stroke="#a5b4fc" filter="url(#shadow)"/>
+    <text x="600" y="485" text-anchor="middle" font-size="31" font-weight="700" fill="#3730a3">$github-learning-radar</text>
+    <text x="600" y="525" text-anchor="middle" font-size="22" fill="#6366f1">Skill：稳定复用同一套研究方法</text>
+    <g fill="#fff" stroke="#c7d2fe">
+      <rect x="280" y="552" width="196" height="40" rx="10"/><rect x="502" y="552" width="196" height="40" rx="10"/><rect x="724" y="552" width="196" height="40" rx="10"/>
+    </g>
+    <g text-anchor="middle" font-size="21" fill="#4338ca"><text x="378" y="579">发现与筛选</text><text x="600" y="579">源码与对比</text><text x="822" y="579">报告与建议</text></g>
+    <path d="M600 620 V650 M224 650 H976" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <g fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"><path d="M224 650 V678"/><path d="M600 650 V678"/><path d="M976 650 V678"/></g>
+    <g filter="url(#shadow)" fill="#fff" stroke="#cbd5e1">
+      <rect x="64" y="692" width="320" height="142" rx="18"/><rect x="440" y="692" width="320" height="142" rx="18"/><rect x="816" y="692" width="320" height="142" rx="18"/>
+    </g>
+    <g font-size="18" font-weight="700" fill="#0d9488"><text x="88" y="725">repos/</text><text x="464" y="725">reports/</text><text x="840" y="725">state/</text></g>
+    <g font-size="28" font-weight="700" fill="#0f172a"><text x="88" y="769">静态研究副本</text><text x="464" y="769">研究报告</text><text x="840" y="769">运行记录</text></g>
+    <g font-size="20" fill="#64748b"><text x="88" y="805">固定源码版本，不运行项目</text><text x="464" y="805">结论 + 证据 + 小实验</text><text x="840" y="805">来源、差分与未完成项</text></g>
+    <rect x="64" y="865" width="1072" height="36" rx="10" fill="#e2e8f0" fill-opacity=".55"/>
+    <text x="600" y="890" text-anchor="middle" font-size="19" fill="#475569">权限边界：只在专用目录研究；安装、执行、改业务代码与对外发送需另行确认</text>
+  </g>
+</svg>
