@@ -1,4 +1,4 @@
 interface:
   display_name: "GitHub 学习与分享"
-  short_description: "从项目研究、个性化建议到图文分享，按需衔接网页草稿和定时学习"
-  default_prompt: "使用 $github-learning-radar，在我指定的学习目录完成相关项目研究，生成带来源、实践建议和 SVG 配图的 Markdown 分享稿；不自动发布或创建定时任务。"
+  short_description: "引导首次设置、确认画像与研究试跑，经同意后配置定时学习"
+  default_prompt: "使用 $github-learning-radar，带我在当前或指定学习目录完成首次设置。已有画像直接复用；没有时先询问是否授权生成，不能读取时引导手填。画像确认后先做一次小规模研究，再主动询问是否开启定时；我同意具体计划后才创建，不发布或外发内容。"
