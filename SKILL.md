@@ -1,8 +1,8 @@
 ---
 name: github-learning-radar
-description: Use when the user requests personalized GitHub project learning, learning-profile setup or refresh from authorized recent chats, illustrated research sharing, website drafts, or recurring learning workflows. Not for ordinary coding changes or production remediation.
+description: Use when the user requests first-use setup for personalized GitHub learning, project research, learning-profile setup or refresh from authorized recent chats, illustrated research sharing, website drafts, or recurring learning workflows. Not for ordinary coding changes or production remediation.
 metadata:
-  version: "2.1.0"
+  version: "2.2.0"
 ---
 
 # GitHub Learning Radar
@@ -13,6 +13,7 @@ metadata:
 
 | 用户要什么 | 执行到哪里 | 按需读取 |
 | --- | --- | --- |
+| 首次使用、带我完成设置 | 补齐目录与画像，确认后试跑，主动询问是否开启定时；同意具体计划才创建 | [首次设置](references/onboarding-workflow.md) |
 | 初始化或刷新学习画像 | 授权范围内提炼候选画像，用户确认后保存 | [画像初始化](references/profile-workflow.md) |
 | 找项目、学习简报、源码对比 | 研究报告、快照、一个小实验建议 | [研究流程](references/research-workflow.md)、[报告要求](references/report-template.md) |
 | 将研究写成分享文章或配图 | 研究完成或复用已有报告后，产出图文 Markdown | [文章流程](references/article-workflow.md)、[配图指南](references/diagram-guide.md) |
@@ -20,6 +21,8 @@ metadata:
 | 配置每日/每周学习任务 | 核实环境、工作区和时区，按明确请求创建或更新任务 | [定时配置](references/automation-workflow.md) |
 
 「整套流程」默认做到本地图文稿和复用说明；网页写入需要指定目标，定时任务需要明确创建请求。普通日报默认只研究，不自动写长文、操作网页或再次创建定时器。阶段可以组合，但不得因上一阶段完成就扩大授权。
+
+首次设置用一次对话串联已有流程，只询问缺失信息；聊天读取、画像保存和定时创建仍分别确认。只询问能力、安装或改进 Skill、编写指南时不执行真实设置；老用户的单阶段请求及无人值守任务不进入首次引导。
 
 用户已提供文章或研究报告时从对应阶段继续，不重复克隆或重新搜索，除非结论需要核实或用户要求更新。已有资料中的状态和证据深度必须保留；沿用历史材料要标明日期，不称为当前最新。
 
