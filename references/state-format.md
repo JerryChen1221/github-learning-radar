@@ -89,3 +89,11 @@
 自动化状态区分 `not_requested`、`prepared`、`created`、`updated`、`blocked`。只有工具确认创建/更新且返回真实 ID，才使用对应成功状态；`schedule`、`timezone` 记录实际计划，未能核实的字段为 `null` 并说明限制。
 
 不同阶段分别记账：图文完成不代表网页已保存，研究成功不代表定时任务已建立。真实运行记录留在个人工作区，不进入 Skill 分享包。
+
+## 首次设置阶段
+
+只有执行首次设置时才增加 `onboarding` 对象，记录 `stage`、`confirmed_items`、`pending_items`、`trial_run_id` 和 `schedule_offer`。`stage` 区分 `workspace`、`profile`、`trial`、`schedule_offer`、`automation`、`done`；`trial_run_id` 只引用真实试跑记录，尚未试跑为 `null`。
+
+`schedule_offer` 区分 `not_offered`、`awaiting_response`、`declined`、`deferred`、`requested`、`blocked_by_profile`、`unavailable`。`requested` 仅说明用户明确请求了调度，实际是否创建仍由 `automation` 字段和工具结果决定。只记必要的确认事项和选择，不保存原始聊天。
+
+等待用户确认时，本轮 `status` 为 `partial`，在 `pending_items` 说明等待内容；完成手动设置且用户拒绝或暂缓定时，可以记 `completed`，同时保持自动化未创建。每次恢复保存新记录，不覆盖历史，不把旧记录当作新的聊天读取、画像覆盖或任务创建授权。
